@@ -1,0 +1,193 @@
+/* element selector */
+/* p{
+  color: aquamarine;
+  background-color: black;
+  border-radius: 5%;
+  border-color: blueviolet;
+} */
+
+
+/* class selector  */
+.box{
+  color:aqua
+}
+
+/* id selector  */
+#box1{
+  color: orange
+}
+
+#box2{
+  color : purple
+}
+/* universal selector */
+
+*{
+  border: 0px;
+}
+
+/* group selector  */
+
+/* decsendent selector  */
+
+#heading1{
+  text-align: right;
+}
+
+#heading2{
+  text-align: center;
+}
+
+#heading3{
+  text-align: left;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.start{
+  text-align: start;
+}
+
+.end{
+  text-align: end;
+}
+
+.justify{
+  width: 400px;
+  text-align: justify;
+}
+
+.none{
+  text-decoration: none;
+}
+
+.underline{
+  text-decoration: underline ;
+  text-decoration-color: blueviolet;
+  text-decoration-style: solid;
+}
+
+.overline{
+  text-decoration: overline;
+  text-decoration-color: beige;
+  text-decoration-style: double;
+}
+
+.linethrough{
+  text-decoration: line-through;
+  text-decoration-color: aqua;
+  text-decoration-style: dotted;
+}
+
+.combo{
+  text-decoration: underline overline line-through;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+.fixed{
+  position: fixed;
+  background-color: lightblue;
+  top: 10px;
+  left: 40px;
+}
+
+.sticky{
+  position: sticky;
+  background-color: yellow;
+  top: 20px;
+  left: 50px;
+}
+
+.relative{
+  position: relative;
+  background-color: beige;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background: tomato;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.card1 {
+  background-color: aliceblue;
+  left: 50px;
+  top: 100px;
+  z-index: 1;
+}
+
+.card2 {
+  background-color: aqua;
+  left: 100px;
+  top: 130px;
+  z-index: 2;
+}
+
+.card3 {
+  background-color: blueviolet;
+  left: 150px;
+  top: 160px;
+  z-index: 3;
+}
+
+.title{
+  text-shadow: 20px, 20px, 5px, rgba(100, 245, 86, 0.6);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.shadowbox{
+  width: 250px;
+  padding:  20px;
+  font-size: 18px;
+  border: 1px solidgray;
+  border-radius: 10px;
+  box-shadow: 5px, 5px, 15px, gray;
+  margin: 3px;
+}
+
+.shadowbox:hover{
+  color: alicebluef;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 8px 4px orange ,9px 7px 5px red;
+  padding: 20px;
+  text-align: center;
+}
+
+.img{
+  width: 300px;
+  height: 250px;
+  border: 6px solid rgb(221, 138, 221);
+  
+  background-image: url(https://picsum.photos/id/152/367/267);
+  background-size: cover;
+
+}

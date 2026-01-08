@@ -1,0 +1,15 @@
+*{
+  color: black
+}
+
+h2{
+  background-color: lightgray
+}
+
+.highlight{
+  background-color: pink
+}
+
+#footer{
+  color: green
+}

@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #003366;
+    color: white;
+    z-index: 1000;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+/* ⭐ Hover animations added */
+.nav-buttons button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    background: #ffffffaa;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.nav-buttons button:hover {
+    background: #ffffff;
+    transform: scale(1.1);
+    color: #003366;
+}
+
+.content {
+    padding: 50px;
+}
+
+.title {
+    font-size: 28px;
+    text-align: center;
+}
+
+/* BOXES */
+.box {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.relative-box {
+    position: relative;
+    background: #6a5acd;
+}
+
+.absolute-box {
+    position: absolute;
+    left: 60%;
+    top: 400px;
+    width: 30%;
+    background: #ff7f50;
+}
+
+.normal-box {
+    background: #14a44d;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 80px;
+    background: #007bff;
+}
+
+.floating-circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 0, 150, 0.35);
+    top: 220px;
+    left: 40px;
+    z-index: -1;
+}
+
+.big-text {
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+
+.form-title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #00000025;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-top: 8px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #0055aa;
+    transform: scale(1.05);
+}
+
+
+.contact-form label::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+.contact-form input:required:hover::after,
+.contact-form textarea:required:hover::after {
+    content: " Required";
+    position: absolute;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    position: relative;
+}
+
+.hero{
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg');
+    height: 400px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
